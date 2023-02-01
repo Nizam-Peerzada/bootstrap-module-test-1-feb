@@ -1,0 +1,121 @@
+.container {
+background-color: #777;
+Height: 512px;
+Width:1050px;
+
+padding: 0px;
+}
+.carousel-item {
+height: 32rem;
+}
+h5{
+    color: black;
+}
+p{
+    color:white;
+}
+.carousel-item .carousel-caption h5 {
+color:white;
+}
+.card{
+    margin-top: 10px;
+    background-color: #777;
+}
+.card .card-body img{
+   
+    height: 261px;
+    width: 287px;
+    padding: 0px;
+    margin: -20px;
+}
+
+.card-title{
+   
+    margin-top: -40px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.list-item-1{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 2px;
+}
+.list-item-2{
+   
+    border-bottom: 1px solid white;
+}
+.cart-footer{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 20px;
+}
+.accordion-button{
+    background-color: #fff;
+    width: 300px;
+    background-color: #777;
+}
+.content p{
+color: black;
+}
+#section{
+    background-color: aliceblue;
+}
+#accordian{
+    margin: 48px;
+    width: 1101px;
+}
+#accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius:4px ;
+}
+#accordian li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c20000;
+}
+#accordian li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+#accordian label + input[type="radio"]{
+    display: none;
+}
+#accordian .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordian label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+table tr a{
+    text-decoration: none;
+    width: 500px;
+ }
+ table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    width: 500px;
+ }
+ .nav-item-1{
+    color: blue;
+ }
+
